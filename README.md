@@ -1,6 +1,5 @@
 # Webfilter
 Ett tillägg för Google Chrome webbläsare
-Av Simon Vernberg, IT-samordnare Hedda Wisingskolan
 
 ---
 
