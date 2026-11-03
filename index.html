@@ -1,54 +1,47 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Webfilter Privacy Policy</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap">
 
 <style>
-  /* Layout: single-column document, centered, max 720px */
+  /* Single-column policy document, max 720px */
   :root {
-    --bg: #f8f8f6;
+    --bg: #f7f7f5;
     --bg-card: #ffffff;
-    --fg: #1a1a1a;
-    --fg-muted: #5a5a5a;
+    --fg: #1c1c1c;
+    --fg-muted: #5c5c5c;
     --accent: #1a5c9e;
     --accent-light: #e8f0fa;
-    --border: #ddddd8;
-    --badge-bg: #e8f4ee;
-    --badge-fg: #1a6b3a;
-    --rule: #e0e0da;
+    --border: #e0e0da;
+    --rule: #e8e8e4;
     color-scheme: light;
   }
 
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #121214;
-      --bg-card: #1e1e22;
-      --fg: #e8e8e4;
-      --fg-muted: #9a9a96;
+      --bg: #111113;
+      --bg-card: #1c1c20;
+      --fg: #e6e6e2;
+      --fg-muted: #909090;
       --accent: #5a9fd4;
-      --accent-light: #1a2a3a;
-      --border: #2e2e34;
-      --badge-bg: #0f2a1a;
-      --badge-fg: #4fd48a;
-      --rule: #2e2e34;
+      --accent-light: #162030;
+      --border: #2c2c32;
+      --rule: #272730;
       color-scheme: dark;
     }
   }
 
   :root[data-theme="dark"] {
-    --bg: #121214;
-    --bg-card: #1e1e22;
-    --fg: #e8e8e4;
-    --fg-muted: #9a9a96;
+    --bg: #111113;
+    --bg-card: #1c1c20;
+    --fg: #e6e6e2;
+    --fg-muted: #909090;
     --accent: #5a9fd4;
-    --accent-light: #1a2a3a;
-    --border: #2e2e34;
-    --badge-bg: #0f2a1a;
-    --badge-fg: #4fd48a;
-    --rule: #2e2e34;
+    --accent-light: #162030;
+    --border: #2c2c32;
+    --rule: #272730;
     color-scheme: dark;
   }
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,400&display=swap');
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -57,20 +50,17 @@
     color: var(--fg);
     font-family: 'Inter', system-ui, sans-serif;
     font-size: 15px;
-    line-height: 1.7;
+    line-height: 1.75;
     padding-left: max(16px, env(safe-area-inset-left, 0px));
     padding-right: max(16px, env(safe-area-inset-right, 0px));
-    padding-block: 48px;
+    padding-block: 52px;
   }
 
-  .page {
-    max-width: 720px;
-    margin: 0 auto;
-  }
+  .page { max-width: 720px; margin: 0 auto; }
 
   /* Header */
   .header {
-    margin-bottom: 40px;
+    margin-bottom: 44px;
     padding-bottom: 32px;
     border-bottom: 1px solid var(--rule);
   }
@@ -78,192 +68,162 @@
   .eyebrow {
     font-size: 11px;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--accent);
-    margin-bottom: 12px;
+    margin-bottom: 14px;
   }
 
   .header h1 {
     font-family: 'Fraunces', Georgia, serif;
-    font-size: clamp(28px, 5vw, 40px);
+    font-size: clamp(30px, 5vw, 44px);
     font-weight: 600;
-    line-height: 1.15;
+    line-height: 1.1;
     color: var(--fg);
-    text-wrap: balance;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
 
-  .header-meta {
-    font-size: 13px;
+  .header-sub {
+    font-size: 14px;
     color: var(--fg-muted);
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 20px;
-  }
-
-  /* Zero-data badge */
-  .zero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--badge-bg);
-    color: var(--badge-fg);
-    font-size: 13px;
-    font-weight: 600;
-    padding: 10px 16px;
-    border-radius: 6px;
-    margin: 24px 0;
-  }
-
-  .zero-badge::before {
-    content: "✓";
-    font-size: 15px;
+    margin-bottom: 4px;
   }
 
   /* Sections */
-  section {
-    margin-bottom: 36px;
-  }
+  section { margin-bottom: 40px; }
 
   h2 {
     font-family: 'Fraunces', Georgia, serif;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     color: var(--fg);
     margin-bottom: 12px;
     text-wrap: balance;
-  }
-
-  p {
-    color: var(--fg);
-    margin-bottom: 12px;
-  }
-
-  p:last-child { margin-bottom: 0; }
-
-  /* Cards */
-  .card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 20px 24px;
-    margin-bottom: 12px;
-  }
-
-  .card h3 {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--accent);
-    margin-bottom: 6px;
-    letter-spacing: 0.01em;
-  }
-
-  .card p {
-    font-size: 14px;
-    color: var(--fg-muted);
-    margin: 0;
-  }
-
-  /* List */
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  ul li {
-    padding: 8px 0;
-    padding-left: 20px;
-    position: relative;
-    color: var(--fg);
-    font-size: 14px;
+    padding-bottom: 8px;
     border-bottom: 1px solid var(--rule);
   }
 
-  ul li:last-child { border-bottom: none; }
+  p { margin-bottom: 12px; }
+  p:last-child { margin-bottom: 0; }
 
-  ul li::before {
-    content: "—";
-    position: absolute;
-    left: 0;
-    color: var(--accent);
+  /* Regulation cards */
+  .reg-block {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .reg-title {
+    background: var(--bg-card);
+    padding: 12px 16px;
+    font-size: 13px;
     font-weight: 600;
+    color: var(--accent);
+    border-bottom: 1px solid var(--border);
   }
 
-  /* What is NOT collected — highlight box */
-  .not-collected {
-    background: var(--accent-light);
-    border-left: 3px solid var(--accent);
-    border-radius: 0 6px 6px 0;
-    padding: 16px 20px;
-    margin: 16px 0;
-  }
-
-  .not-collected p {
-    font-size: 14px;
-    color: var(--fg);
-    margin: 0;
-  }
-
-  /* Permissions table */
-  .perm-list {
+  .reg-articles {
+    background: var(--bg);
+    padding: 12px 16px;
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-wrap: wrap;
+    gap: 6px;
   }
+
+  .art-chip {
+    font-size: 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 3px 8px;
+    color: var(--fg-muted);
+    white-space: nowrap;
+  }
+
+  /* Permission rows */
+  .perm-list { display: flex; flex-direction: column; gap: 8px; }
 
   .perm-row {
     display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 12px;
+    grid-template-columns: 190px 1fr;
+    gap: 16px;
     align-items: start;
-    padding: 12px 16px;
+    padding: 14px 16px;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 6px;
-    font-size: 14px;
   }
 
-  @media (max-width: 500px) {
-    .perm-row { grid-template-columns: 1fr; }
+  @media (max-width: 480px) {
+    .perm-row { grid-template-columns: 1fr; gap: 6px; }
   }
 
   .perm-name {
     font-family: 'Courier New', monospace;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--accent);
-    padding-top: 2px;
     word-break: break-all;
+    padding-top: 1px;
   }
 
-  .perm-desc {
+  .perm-desc { font-size: 14px; color: var(--fg-muted); min-width: 0; }
+
+  /* Plain list */
+  ul { list-style: none; padding: 0; }
+
+  ul li {
+    font-size: 14px;
+    padding: 7px 0 7px 18px;
+    position: relative;
+    border-bottom: 1px solid var(--rule);
+    color: var(--fg);
+  }
+
+  ul li:last-child { border-bottom: none; }
+
+  ul li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+
+  /* MV3 bullets */
+  .mv3-list { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+
+  .mv3-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 14px;
     color: var(--fg-muted);
-    min-width: 0;
   }
 
   /* Contact */
-  .contact-block {
+  .contact-box {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 20px 24px;
+    font-size: 14px;
   }
 
-  .contact-block p { font-size: 14px; color: var(--fg-muted); }
-  .contact-block strong { color: var(--fg); }
+  .contact-box strong { color: var(--fg); }
 
   /* Footer */
   footer {
-    margin-top: 48px;
-    padding-top: 24px;
+    margin-top: 52px;
+    padding-top: 20px;
     border-top: 1px solid var(--rule);
     font-size: 12px;
     color: var(--fg-muted);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 8px;
+    gap: 6px;
   }
 </style>
 
@@ -272,116 +232,143 @@
   <header class="header">
     <p class="eyebrow">Chrome Extension · Privacy Policy</p>
     <h1>Webfilter</h1>
-    <div class="header-meta">
-      <span>Developer: Simon Vernberg, IT-samordnare Hedda Wisingskolan</span>
-      <span>Last updated: November 2026</span>
-    </div>
-    <div class="zero-badge">No data collected · No data stored · No data transmitted</div>
+    <p class="header-sub">Ett tillägg för Google Chrome webbläsare</p>
+    <p class="header-sub">Av Simon Vernberg, IT-samordnare Hedda Wisingskolan</p>
   </header>
 
   <section>
-    <h2>Overview</h2>
-    <p>Webfilter is a Chrome extension developed for use in Swedish schools and educational environments. Its sole purpose is to block access to websites that are inappropriate or unproductive during school hours.</p>
-    <p>This privacy policy explains what data Webfilter does and does not handle. The short answer: Webfilter collects no data whatsoever about users or their browsing activity.</p>
+    <h2>Beskrivning</h2>
+    <p>Webfilter är ett Chrome-tillägg utvecklat för användning i skolor och utbildningsverksamheter. Det skapades för att ge IT-administratörer ett pålitligt, transparent och integritetsvänligt verktyg för att begränsa åtkomst till webbplatser som inte är lämpliga eller produktiva under skoltid.</p>
+    <p>Tillägget är avsett att driftsättas och hanteras av skolans IT-administratör via Google Workspace for Education, med hjälp av Chrome Browser Cloud Management eller liknande MDM/EMM-lösningar.</p>
   </section>
 
   <section>
-    <h2>Data we do not collect</h2>
-    <div class="not-collected">
-      <p>Webfilter does not collect, store, transmit, or analyse any information about users or their browsing activity. All rule evaluation is performed locally in the browser by Chrome's built-in engine — the extension itself never has access to the content of any request or any webpage.</p>
+    <h2>Vad gör tillägget</h2>
+    <p>Webfilter blockerar åtkomst till webbplatser som anses olämpliga eller oproduktiva i skolmiljö. När en användare försöker besöka en blockerad webbplats omdirigeras webbläsarfliken till en inbyggd sida (blocked.html) som medföljer tillägget. Denna sida informerar användaren om att sajten är blockerad av administratören. Ingen extern server kontaktas under denna process, den blockerade sidan levereras helt och hållet från tillägget.</p>
+  </section>
+
+  <section>
+    <h2>Vad gör inte tillägget</h2>
+    <p>Tillägget kan inte fjärrstyras eller omkonfigureras efter installation. Den använder inga dynamiska regellistor. Det läser inte, ändrar inte och avlyssnar inte webbsidors innehåll. Användaren kan inte konfigurera, inaktivera eller kringgå tillägget. Ingen kan ansluta till eller interagera med tillägget över ett nätverk. Tillägget utför ingen SSL/TLS-inspektion och installerar inga certifikat.</p>
+  </section>
+
+  <section>
+    <h2>Hur fungerar tillägget</h2>
+    <p>Webfilter bygger på Chromes inbyggda declarativeNetRequest API. Alla blockeringsregler lagras som statiska JSON-filer som paketeras direkt i tillägget och används lokalt på enheten. Det sker inga anrop till externa servrar, API:er eller molntjänster.</p>
+    <p>Regellistan kan bara uppdateras genom att publicera en ny version av tillägget via Chrome Web Store och distribuera den via Google Workspace for Education, med hjälp av Chrome Browser Cloud Management eller liknande MDM/EMM-lösningar. Det finns ingen mekanism för fjärruppdatering, inget push-system och inget sätt att ändra tilläggets beteende utan att installera ett nytt paket eller ny version av tillägget.</p>
+  </section>
+
+  <section>
+    <h2>Data och integritet</h2>
+    <p>Webfilter lagrar, överför eller analyserar inte några uppgifter om användare eller deras surfaktivitet. Tillägget innehåller inga spårningsfunktioner, analysverktyg, telemetri eller rapporteringsfunktioner av något slag. Det finns inga tredjepartstjänster, annonsbibliotek eller externa SDK:er inbäddade i tillägget. All regelhantering sker lokalt i webbläsaren.</p>
+    <p>Webfilter är fullt kompatibelt med dataskyddsregler och integritetslagar:</p>
+
+    <div class="reg-block">
+      <div class="reg-title">EU:s dataskyddsförordning (GDPR, förordning 2016/679)</div>
+      <div class="reg-articles">
+        <span class="art-chip">Art. 4 – Definitioner</span>
+        <span class="art-chip">Art. 5 – Principer för behandling</span>
+        <span class="art-chip">Art. 6 – Laglig grund för behandling</span>
+        <span class="art-chip">Art. 9 – Känsliga personuppgifter</span>
+        <span class="art-chip">Art. 25 – Inbyggt dataskydd</span>
+        <span class="art-chip">Art. 30 – Register över behandlingar</span>
+        <span class="art-chip">Art. 32 – Säkerhet vid behandling</span>
+        <span class="art-chip">Art. 35 – Konsekvensbedömning</span>
+        <span class="art-chip">Art. 44–49 – Överföring till tredjeland</span>
+      </div>
     </div>
+
+    <div class="reg-block">
+      <div class="reg-title">ePrivacy-direktivet (2002/58/EG)</div>
+      <div class="reg-articles">
+        <span class="art-chip">Art. 4 – Säkerhet vid behandling</span>
+        <span class="art-chip">Art. 5 – Konfidentialitet vid kommunikation</span>
+        <span class="art-chip">Art. 9 – Lokaliseringsuppgifter</span>
+        <span class="art-chip">Art. 13 – Otillbörlig kommunikation</span>
+        <span class="art-chip">Art. 14 – Tekniska egenskaper och standard</span>
+        <span class="art-chip">Art. 15 – Undantag och begränsningar</span>
+      </div>
+    </div>
+
+    <div class="reg-block">
+      <div class="reg-title">NIS2-direktivet (EU 2022/2555)</div>
+      <div class="reg-articles">
+        <span class="art-chip">Art. 2 – Tillämpningsområde</span>
+        <span class="art-chip">Art. 6 – Definitioner</span>
+        <span class="art-chip">Art. 20 – Styrning</span>
+        <span class="art-chip">Art. 21 – Riskhanteringsåtgärder</span>
+        <span class="art-chip">Art. 24 – Användning av produkt och tjänster</span>
+        <span class="art-chip">Art. 32–33 – Tillsyn och kontroll</span>
+      </div>
+    </div>
+
+    <div class="reg-block">
+      <div class="reg-title">Skollagen (2010:800)</div>
+      <div class="reg-articles">
+        <span class="art-chip">5 kap. 5–7 §§</span>
+        <span class="art-chip">6 kap. 1–6 §§</span>
+        <span class="art-chip">26a kap. 2–6 §§</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Licenser och behörigheter</h2>
+    <p>Webfilter är byggt uteslutande på webbplattformsstandarder och öppna API:er. Det innehåller ingen tredjepartskod. Nedan specificeras de öppna licenser vars krav tillägget uppfyller, de exakta Chrome-behörigheter det begär, samt vad Manifest V3 är.</p>
     <ul>
-      <li>No browsing history is created or stored</li>
-      <li>No personal data is processed</li>
-      <li>Nothing leaves the device</li>
-      <li>No cookies, localStorage, sessionStorage or IndexedDB are written based on user activity</li>
-      <li>No tracking, analytics, telemetry or reporting of any kind</li>
-      <li>No third-party services, advertising libraries or external SDKs are included</li>
+      <li><strong>MIT License</strong> – Den primära licensen för tilläggets egna källkod.</li>
+      <li><strong>Apache License 2.0</strong> – Används i Chromium-projektet och Chrome Extensions-plattformen som tillägget bygger på.</li>
+      <li><strong>W3C Software and Document License</strong> – Webbstandarder (HTML, JSON, URL-syntax) som definieras av W3C.</li>
+      <li><strong>Chromes Extensions API (Google LLC)</strong> – Tillägget använder Chromes publikt dokumenterade Extensions API, som distribueras under Googles egna användarvillkor för Chrome Web Store och Chrome Browser.</li>
     </ul>
+    <p style="margin-top:14px; font-size:14px; color:var(--fg-muted);">Tillägget är inte beroende av externa bibliotek, npm-paket eller CDN-resurser.</p>
   </section>
 
   <section>
-    <h2>How the extension works</h2>
-    <p>Webfilter uses Chrome's built-in <strong>declarativeNetRequest</strong> API. All blocking rules are stored as static JSON files packaged directly inside the extension and evaluated locally on the device. No calls are made to external servers, APIs or cloud services.</p>
-    <p>When a user attempts to navigate to a blocked website, the browser tab is redirected to a built-in page (<code>blocked.html</code>) that is included in the extension package. This page informs the user that the site is restricted by the administrator. No external server is contacted during this process.</p>
-    <p>The rule list can only be updated by publishing a new version of the extension via the Chrome Web Store and distributing it through enterprise policy. There is no mechanism for remote rule updates, no push system, and no way to change the extension's behaviour without installing a new package.</p>
-  </section>
-
-  <section>
-    <h2>Administrator configuration</h2>
-    <p>IT administrators may optionally define a list of additionally allowed domains via Google Workspace's managed storage policy (<code>allowedDomains</code>). This configuration is read-only by the extension — nothing is written back. No user data is involved in this process.</p>
-  </section>
-
-  <section>
-    <h2>Permissions</h2>
-    <p>The extension requests exactly three permissions. No other permissions are requested or used.</p>
+    <h2>Chrome-behörigheter</h2>
+    <p>Tillägget begär exakt tre behörigheter i Manifest V3:</p>
     <div class="perm-list">
       <div class="perm-row">
         <div class="perm-name">declarativeNetRequest</div>
-        <div class="perm-desc">Required to register static blocking rules and let Chrome's built-in rule engine redirect or block matched network requests. The extension never reads request content.</div>
+        <div class="perm-desc">Krävs för att registrera statiska blockeringsregler och låta Chromes inbyggda regelmotor omdirigera eller blockera matchade nätverksbegärningar.</div>
       </div>
       <div class="perm-row">
         <div class="perm-name">storage</div>
-        <div class="perm-desc">Used exclusively to read administrator-configured policy from <code>chrome.storage.managed</code>. Nothing is written to storage by the extension.</div>
+        <div class="perm-desc">Krävs för att läsa administratörskonfigurerad policy från chrome.storage.managed. Används enbart för att hämta listan allowedDomains som en IT-administratör valfritt kan definiera via Google Workspace.</div>
       </div>
       <div class="perm-row">
         <div class="perm-name">host_permissions: &lt;all_urls&gt;</div>
-        <div class="perm-desc">Required by the declarativeNetRequest API to evaluate blocking rules against outgoing requests to any domain. Does not give the extension access to page content, cookies or user data.</div>
+        <div class="perm-desc">Krävs av declarativeNetRequest API:et för att utvärdera blockeringsregler.</div>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>Regulatory compliance</h2>
-    <p>Because no personal data is processed in any form, Webfilter does not trigger the compliance requirements of applicable data protection law. The extension is consistent with:</p>
-    <div class="card">
-      <h3>EU GDPR (Regulation 2016/679)</h3>
-      <p>Art. 4, 5, 6, 9, 25, 30, 32, 35, 44–49 — no personal data is collected, so no lawful basis, DPIA, or data processing agreement is required.</p>
-    </div>
-    <div class="card">
-      <h3>ePrivacy Directive (2002/58/EC)</h3>
-      <p>Art. 4, 5, 6, 9, 13, 14, 15 — no cookies are set, no electronic communications are intercepted or stored.</p>
-    </div>
-    <div class="card">
-      <h3>NIS2 Directive (EU 2022/2555)</h3>
-      <p>Art. 2, 6, 20, 21, 23, 24, 32–33 — the extension introduces no vulnerabilities or data flows into the school's IT environment.</p>
-    </div>
-    <div class="card">
-      <h3>Swedish Education Act (Skollagen 2010:800)</h3>
-      <p>Ch. 5 §§ 5–6, Ch. 6 §§ 1–6, Ch. 26a §§ 2–6 — no pupil data is handled; no data processing agreement is required for normal school use.</p>
-    </div>
-    <div class="card">
-      <h3>UN Convention on the Rights of the Child (UNCRC)</h3>
-      <p>Art. 16 — children's right to privacy. The extension does not monitor, track or record children's activity. In force in Sweden since 2020.</p>
+    <h2>Manifest V3</h2>
+    <p>Webfilter är byggt på Chrome Extensions Manifest V3, det nuvarande manifestformatet för Chrome-tillägg.</p>
+    <div class="mv3-list">
+      <div class="mv3-item">Nätverksfiltrering sker via API:et declarativeNetRequest i stället för det äldre webRequest-API:et, vilket innebär att tillägget aldrig läser eller modifierar nätverkstrafik.</div>
+      <div class="mv3-item">Bakgrundsprocesser körs som service workers, vilket minskar resursanvändning.</div>
+      <div class="mv3-item">Fjärrkod är förbjudet i MV3.</div>
     </div>
   </section>
 
   <section>
-    <h2>Open source &amp; licences</h2>
-    <p>Webfilter is built exclusively on open web platform standards and open APIs. It contains no proprietary third-party code and has no dependency on external libraries, npm packages or CDN resources at runtime.</p>
-    <ul>
-      <li><strong>MIT License</strong> — the primary licence for the extension's own source code</li>
-      <li><strong>Apache License 2.0</strong> — used by the Chromium project and Chrome Extensions platform the extension builds on</li>
-      <li><strong>W3C Software and Document License</strong> — web standards (HTML, JSON, URL syntax) defined by W3C</li>
-      <li><strong>Chrome Extensions API (Google LLC)</strong> — used under Google's terms for the Chrome Web Store and Chrome Browser</li>
-    </ul>
+    <h2>Driftsättning</h2>
+    <p>Webfilter är avsett för driftsättning via verktyg så som Google Workspace for Education (Chrome Browser Cloud Management) samt andra MDM/EMM-lösningar som stöder Chrome-tilläggspolicy.</p>
+    <p>Administratörer kan valfritt konfigurera en godkänd lista med ytterligare godkända domäner via den hanterade lagringspolicyn allowedDomains. Detta gör det möjligt för enskilda skolor att vitlista specifika utbildningsverktyg eller tjänster utan att en ny tilläggsversion behöver byggas.</p>
   </section>
 
   <section>
-    <h2>Changes to this policy</h2>
-    <p>Any changes to this privacy policy will be published at this URL. Because the extension collects no data, policy changes will typically reflect updated regulatory references or clarifications, not changes to data handling.</p>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-    <div class="contact-block">
-      <p><strong>Simon Vernberg</strong><br>
-      IT-samordnare, Hedda Wisingskolan</p>
+    <h2>Kontakt</h2>
+    <div class="contact-box">
+      <strong>Simon Vernberg</strong><br>
+      IT-samordnare, Hedda Wisingskolan
     </div>
   </section>
 
   <footer>
-    <span>Webfilter · Chrome Extension Privacy Policy</span>
+    <span>Webfilter · Privacy Policy</span>
     <span>Simon Vernberg · Hedda Wisingskolan · November 2026</span>
   </footer>
 
