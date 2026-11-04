@@ -1,0 +1,16 @@
+This extension is built on the following open platforms and standards:
+
+1. Chromium / Chrome Extensions Platform
+   License: Apache License 2.0
+   https://www.apache.org/licenses/LICENSE-2.0
+   Copyright (c) The Chromium Authors
+
+2. W3C Web Standards (HTML, JSON, URL)
+   License: W3C Software and Document License
+   https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document
+   Copyright (c) World Wide Web Consortium
+
+3. Chrome Extensions API
+   Provider: Google LLC
+   Terms: Chrome Web Store Developer Agreement
+   https://developer.chrome.com/docs/webstore/program-policies/
