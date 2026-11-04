@@ -1,1 +1,5 @@
 Detta är dom nuvarande reglerna som är blockerade och som ligger nom whitelist för tillägget
+whitelist.txt — 211 domäner
+rules_ext_1.txt — 30 000 domäner
+rules_ext_2.txt — 30 000 domäner
+rules_ext_3.txt — 12 534 domäner
